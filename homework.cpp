@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 
 using namespace std;
 
@@ -76,9 +75,11 @@ public:
 
 
 
-void main() {
+int main() {
 	StartUp::Start();
 
 
 	system("pause");
+
+    return 0;
 }
